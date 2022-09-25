@@ -1,0 +1,37 @@
+menu "BLE-CAN Configuration"
+    config LEDS_RMT_TX_GPIO
+        int "RMT TX GPIO"
+        default 8
+        help
+            Set the GPIO number used for transmitting the RMT signal.
+
+    config LEDS_COUNT
+        int "Number of LEDS in a row"
+        default 1
+        help
+            There can be many LEDs in a row.
+
+    config CAN_TX_GPIO_NUM
+        int "TX GPIO Pin"
+        default 2
+        help
+            Set the pin for CAN TX
+
+    config CAN_RX_GPIO_NUM
+        int "RX GPIO Pin"
+        default 3
+        help
+            Set the pin for CAN RX line
+        
+    config I2C_SCL_GPIO_NUM
+        int "I2C SCL"
+        default 6
+        help
+            Set the Clock pin of I2C bus "SCL"
+    
+    config I2C_SDA_GPIO_NUM
+        int "I2C SDA"
+        default 5
+        help
+            Set the Data pin of I2C bus "SDA"
+endmenu
