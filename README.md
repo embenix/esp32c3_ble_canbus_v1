@@ -1,7 +1,7 @@
 # ESP32C3 CAN BLE V1
 ESP-IDF based project using ESP32C3 module. This project can be used as a startup template for further development under the ESP-IDF environment.
 > Note: This is the work still in progress. However, the IO configuration, TWAI communication, Serial LED (WS2812C) and temperature sensor work just fine.
-> After successfully uploding the project to the board, it starts printing the temperature and humidity data which read from SHT30 sensor.
+> After successfully uploading the project to the board, it starts printing the temperature and humidity data which read from SHT30 sensor.
 
 ### To-Do:
 - Accelerometer (LIS3DH) Drivers
