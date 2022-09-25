@@ -1,5 +1,5 @@
 # ESP32C3 CAN BLE V1
-Interfacing the ESP32-C3-DevKitM-1 with BM-Lite fingerprint sensor from Fingerprint AB.
+ESP-IDF based project using ESP32C3 module. This project can be used as a startup template and build under ESP-IDF environment.
 > Note: This is the work still in progress. However, the IO configuration, TWAI communication, Serial LED (WS2812C) and temperature sensor work just fine.
 
 ### To-Do:
@@ -8,9 +8,9 @@ Interfacing the ESP32-C3-DevKitM-1 with BM-Lite fingerprint sensor from Fingerpr
 
 
 ## Development - How to get started:
-### Software Requirements:
+### Software Requirements:t
 1. Install the ESP-IDF (Espressif IoT Development Framework) from Espressif. Follow the instructions [here](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.html#installation-step-by-step).
-2. Once the ESP-IDF is setup clone this repository by using git: `git clone --recursive https://github.com/embenix/esp32c3_bmlite.git`
+2. Once the ESP-IDF is setup clone this repository by using git: `git clone --recursive https://github.com/embenix/esp32c3_ble_canbus_v1.git`
 3. Use `idf.py build` to build the project and `idf.py -p COMxx flash monitor` to upload the firmware to the dev-kit. 
 > Note: **`xx`** is the number of the COM port on your computer
 
