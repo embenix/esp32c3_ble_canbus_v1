@@ -41,3 +41,6 @@ ESP-IDF based project using ESP32C3 module. This project can be used as a startu
 
 ### Rendered PCB layout:
 <div align="center"><img src="./documents/ESP32C3_BLE_CANBus_Unit_3D.jpg"/></div>
+
+### Video - Progress from start to end:
+<div align="center"><vid src="./documents/embenix_canbus_esp32c3_project.mp4"/></div>
