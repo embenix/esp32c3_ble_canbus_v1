@@ -35,7 +35,8 @@ ESP-IDF based project using ESP32C3 module. This project can be used as a startu
 | 10- VDDIO            | 3.3v               | -->
 
 ## Hardware:
-### Schematic
+### Schematic:
 1. [ESP32C3_CAN-BLE_unit_v1](./documents/ESP32C3_CAN-BLE_unit_v1.pdf "ESP32C3_CAN-BLE_unit_v1")
 
+### Rendered PCB layout:
 <div align="center"><img src="./documents/ESP32C3_BLE_CANBus_Unit_3D.jpg"/></div>
