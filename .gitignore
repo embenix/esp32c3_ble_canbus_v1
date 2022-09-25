@@ -1,2 +1,6 @@
-
+#folders to ignore
+.vscode
 build
+
+#files to ignore
+sdkconfig.old
